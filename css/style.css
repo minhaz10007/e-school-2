@@ -1,0 +1,88 @@
+/*font start*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*font end*/
+/*common start*/
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000000;
+}
+/*common end*/
+/*header start*/
+header {
+	background-color: #f0fff0 !important;
+}
+.cnav {
+	padding: 17px 0;
+}
+.logo {}
+.ntgl {
+	box-shadow: none !important;
+}
+.menu {}
+.menu ul {}
+.menu ul li {
+	padding: 0 10px;
+}
+.menu ul li a {
+	color: #000000;
+	line-height: 24px;
+	padding: 5px;
+}
+.menu ul li:hover a {
+	color: #fd511a;
+}
+.btns{
+	padding: 10px 28px;
+}
+.btnc{
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	background-color: #21B573;
+	border: none;
+	border-radius: 33px;
+	line-height: 19px;
+}
+.btnc:hover {
+	background-color: #fd511a;
+	color: #ffffff;
+}
+.btnc:active {
+	background-color: #fd511a !important;
+	color: #ffffff !important;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-color: #f0fff0;
+	padding-bottom: 65px;
+}
+
+.b_text {}
+.b_p1 {
+	color: #FD511A;
+    line-height: 24px;
+    margin-bottom: 10px !important;
+}
+.b_h1 {
+	font-size: 48px;
+	font-weight: 700;
+	color: #000000;
+	line-height: 70px;
+}
+.b_h1 span{
+	color: #21B573;
+}
+.b_p2 {
+	font-size: 16px;
+	line-height: 36px;
+	margin: 20px 0 15px !important;
+}
+.b_btn {
+	padding: 12px 36px;
+}
+.b_img {}
+.b_img img {}
+/*banner end*/
